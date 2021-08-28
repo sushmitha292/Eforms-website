@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>LEAVE Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <h1>LEAVE Form</h1>
+      <div class="form-tag">
+        <form
+          name="form1"
+          action="mailto:rpriyapadma2000@gmail.com ?subject=OD FORM"
+          enctype="text/plain"
+          method="POST"
+        >
+          <p>
+            <b>Name:</b> <br />
+            <input type="TEXT" size="20" name="name:" />
+          </p>
+          <p>
+            <b>Roll No:</b> <br />
+            <input type="TEXT" size="30" name="Roll:" />
+          </p>
+          <p>
+            <b>Department:</b> <br />
+            <input type="TEXT" size="30" name="Department:" />
+          </p>
+          <p>
+            <b>Date: </b> <br />
+            <input type="DATE" size="15" name="Date:" />
+          </p>
+          <p><b>Reason:</b> <br /></p>
+          <textarea
+            rows="4"
+            cols="20"
+            value="reason"
+            type="Reason"
+            name="Reason:"
+            width="10px"
+            size="20px"
+            length="200"
+          ></textarea>
+          <p>
+            <input class="button" type="SUBMIT" value="Submit" />
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        background-color: #fdefef;
+        font-family: "Poppins", sans-serif;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-tag {
+        align-items: center;
+        background-color: #001e6c;
+        padding: 30px;
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      input {
+        height: 40px;
+        padding: 10px;
+      }
+      input,
+      textarea {
+        border-radius: 20px;
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 10px;
+      }
+      p {
+        color: #fff;
+      }
+      .button {
+        background-color: #fff338;
+        color: #000;
+        font-family: "Poppins", sans-serif;
+      }
+      .button:hover {
+        background-color: #ff3f00;
+        color: #fff;
+      }
+    </style>
+  </body>
+</html>
+
